@@ -1,0 +1,216 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2011 CGrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+/* Master Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+margin:0;
+padding:0px 0 0 0;
+}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+
+/* Core */
+body{
+color:#888;
+font-family:Comic Sans MS,Helvetica,sans-serif;
+font-size:12px;
+line-height:1.8em;
+}
+.cg-wrap{
+background:#fff;
+margin-left:auto;
+margin-right:auto;
+}
+.cg-block{float:left;display:inline}
+.mod-block {padding:10px}
+.cg-inner{padding-left:0px;padding-right:0px}
+.cg-block .first {margin-left:0px}
+.cg-block .last {margin-right:-10px}
+.cg-block .single {margin-left:-10px;margin-right:-10px}
+.gap{clear:both; margin-bottom:10px}
+.main-bg {;margin-bottom:80px}
+
+/*Header Area*/
+#header {background:#fff}
+a#logo,#logo-text{float:left}
+#logo-text h1{
+font-size:200%;
+font-weight:bold;
+text-transform:uppercase;
+border:0!important;
+margin:10px 0 0!important;
+padding:0!important
+}
+#logo-text h1 a{}
+#logo-text p.site-slogan{margin:0;padding:0;color:#999}
+
+/*Search*/
+#search{float:right;margin:22px 0px 0px 0px}
+.mod-search,div.finder{width:300px;height:29px}
+#search .inputbox,#search input#mod-finder-searchword{
+height:29px;
+line-height:29px;
+color:#000;
+background:transparent;
+border:0;
+width:215px;
+margin:0;
+padding:0 15px;
+}
+#search input.button{
+background:none!important;
+border:0 none;
+cursor:pointer;
+height:28px;
+width:70px;
+margin:0!important;
+text-indent:-999em;
+overflow:hidden
+}
+
+/* Layout */
+#cg-leftcol, #cg-rightcol, #cg-maincol ,#inset1, #inset2, #inner_content {float:left}
+#cg-leftcol, #cg-rightcol, #cg-maincol {padding:10px 0}
+
+#inner_content .cg-inner {padding:10px;margin: 0 5px; 
+background:#FFF
+}
+#cg-leftcol .cg-inner,#cg-rightcol .cg-inner,#cg-content1 .cg-inner, #cg-content2 .cg-inner {padding:0 5px}
+.main-padding {padding:0 5px}
+
+/*Font Resizer*/
+div.font-sizer{
+width:45px;
+height:16px;
+line-height:16px;
+position:absolute;
+z-index:1;
+top:5px;
+right:10px
+}
+div.font-sizer a.btn_fs_big,div.font-sizer a.btn_fs_reset,div.font-sizer a.btn_fs_small
+{background-image:url(../images/font-resizer.png);
+background-repeat:no-repeat;
+height:16px;
+width:15px;
+border:medium none;
+cursor:pointer;
+display:block;
+float:left;
+text-indent:-999em;
+padding:0
+}
+div.font-sizer a.btn_fs_big{background-position:0 0}
+div.font-sizer a.btn_fs_reset{background-position:-15px 0}
+div.font-sizer a.btn_fs_small{background-position:-30px 0}
+div.font-sizer a.btn_fs_big:hover{background-position:0 -16px}
+div.font-sizer a.btn_fs_reset:hover{background-position:-15px -16px}
+div.font-sizer a.btn_fs_small:hover{background-position:-30px -16px}
+
+/* Breadcrumbs */
+#breadcrumbs{
+background:#f1f1f1;
+overflow:hidden;
+height:31px;
+line-height:31px;
+padding:0 10px;
+border:none !important
+}
+#breadcrumbs span.showhome {font-weight:bold;margin-right:5px}
+#breadcrumbs .padding{padding:5px 8px}
+#breadcrumbs a,#breadcrumbs span,#breadcrumbs strong{display:block;float:left}
+#breadcrumbs a,#breadcrumbs span.separator{
+margin-right:10px;
+padding-right:15px;
+background:url(../images/breadcrumbs.png) 100% 50% no-repeat;
+color:#969696
+}
+#breadcrumbs span.current{color:#C8C8C8}
+#topofpage{background:url(../images/go-top.png) no-repeat 0 0;
+bottom:60px;
+cursor:pointer;
+display:none;
+position:fixed;
+right:40px;
+z-index:10;
+width:82px;
+height:102px; 
+text-indent: -9999em
+}
+
+/* Footer */
+#cg-footer{padding:10px 10px;margin-bottom:0px}
+#cg-footer .cp {float:left;}
+#cg-footer a:hover, #cg-bottom a:hover {text-decoration:underline}
+
+/*Footer Navigation*/
+#footer-nav{float:right;margin-top:8px}
+#footer-nav ul{list-style-type:none;padding:0;margin:0 0 5px 0}
+#footer-nav li{background:none;padding:0;display:inline}
+#footer-nav a{
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+display:inline;
+margin:0;
+padding:0 8px
+}
+
+/*topmenu*/
+#topmenu{
+background:#fef5f8;
+float:right;
+margin-top:0px;
+box-shadow: 0 5px 4px -3px #ccc;
+}
+#topmenu ul{list-style-type:none;padding:0;margin:0 0 5px 0}
+#topmenu li{background:#fef5f8;padding:0;display:inline}
+#topmenu a{
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+display:inline;
+margin:0;
+padding:0 10px;
+border-right: 1px solid #fff;
+color: #000;
+}
+
+/* Clearfix */
+.clr{
+clear:both;
+display:block;
+overflow:hidden;
+visibility:hidden;
+width:0;
+height:0
+}
+.clearfix:after{
+clear:both;
+content:' ';
+display:block;
+font-size:0;
+line-height:0;
+visibility:hidden;
+width:0;
+height:0
+}
+* html .clearfix,:first-child+html .clearfix{zoom:1}

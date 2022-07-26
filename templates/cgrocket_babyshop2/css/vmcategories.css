@@ -1,0 +1,95 @@
+/*---------------------------------------------------------------
+# Package - VM Categorie Module by CGrocket.com  
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 cgrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+.lofmenu_virtuemart {
+width:100%;}
+.lofmenu_virtuemart ul.lofmenu {
+margin:0;
+padding:0;		
+position: relative;
+list-style-type:none;
+z-index: 666;}
+		
+.lofmenu_virtuemart ul.lofmenu li{
+width:100%;
+display:block;
+margin: 0;
+padding: 0;
+position:relative;}
+
+.lofmenu_virtuemart .lofmenu .lofitem1,
+.lofmenu_virtuemart .lofmenu .lofitem2 {}
+
+.lofmenu_virtuemart .lofmenu a {
+display:block;
+color:#666;
+position:relative;
+padding:6px 0;
+text-decoration:none;
+border-bottom:0px dotted #ccc;
+-webkit-transition:background-color .3s ease-out, color .3s ease-out;
+-moz-transition:background-color .3s ease-out, color .3s ease-out;
+-o-transition:background-color .3s ease-out, color .3s ease-out;
+transition:background-color .3s ease-out, color .3s ease-out;}
+
+/* on hover */
+.lofmenu_virtuemart .lofmenu .lofactive > a{
+background-color: #f6f5f5;
+color: #222 }
+				
+/* when is current */		
+.lofmenu_virtuemart .lofmenu .ice-current > a{
+background-color:#f6f5f5;
+color: #222 }
+
+.lofmenu_virtuemart .lofmenu > .ice-current > a:before {
+content:"";
+background:url(../images/cgrocket2.png) no-repeat center right;
+position:absolute;
+height:20px;
+width:14px;
+right:-24px}
+
+.lofmenu_virtuemart .lofmenu .lofitem1 img{
+margin:0 0px 0 0px;
+float:left;}
+
+.lofmenu_virtuemart .lofmenu .lofitem1 a span.counter {
+color:#666;
+padding-left:3px
+}
+
+/* when has childs items */	
+.lofmenu_virtuemart .lofmenu .lofitem1 a i{
+background: url(../images/cgrocket1.png) no-repeat top;
+display: block;
+height: 14px;
+position: absolute;
+right: 5px;
+top: 10px;
+width: 14px;
+}
+
+.lofmenu_virtuemart .lofmenu .lofactive > a i{
+background-position:bottom}
+
+/* second level menu */			
+.lofmenu_virtuemart .lofmenu .lofitem1 ul{
+width:100%;
+position:absolute;
+top: -1px;
+left:99.9%;
+border:1px solid #fff;
+box-shadow:0 0 20px #6cbfff;
+padding:0;
+margin:0;
+background:#fff;
+z-index: 100;
+}

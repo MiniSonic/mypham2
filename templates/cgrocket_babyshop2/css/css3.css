@@ -1,0 +1,55 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 CGrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+.mod-wrapper,#cg-content-bg,
+div.k2TagCloudBlock a,div.userBlock,
+#inner_content .category-view  .spacer,
+.browse-view .product .spacer,
+
+a.mod-wrapper li,
+.nsrocket.rocket-vm .rocket-inner,
+.adminform button,#adminForm button,.button,button[type=submit],input[type=submit],input[type=button],
+a.readmore,input[type=text],input[type=password],input[type=submit], input[type=reset], input[type=email],
+select,textarea,.inputbox,div.pagination ul li a,.rocket-blog .rocket-row,.browse-view .product .spacer,
+.vm-button-correct,
+.rocket-scroller img.rocket-image,
+#inner_content .category-view  .spacer,
+
+input[type=text],input[type=password],input[type=submit], input[type=reset], input[type=email],
+select,textarea,.inputbox,.vm-button-correct{
+}
+
+/* Lables and Badges*/
+.cg-tbordered {
+border-collapse: separate;*border-collapse: collapsed;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.cg-label,.cg-badge {
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.cg-label {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.cg-badge {
+-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+
+/*Blog Pagination*/
+div.pagination ul li a{
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px
+}

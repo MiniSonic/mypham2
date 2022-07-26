@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5" method="upgrade">
+<name>Vietnamese Language Pack</name>
+<packagename>vi-VN</packagename>
+<version>2.5.7</version>
+<url>http://www.leweb2.com</url>
+<packager></packager>
+<packagerurl></packagerurl>
+<description>Joomla! 2.5 Vietnamese Language Pack - Download latest package at http://www.leweb2.com</description>
+<files>
+        <file type="language" client="site" id="vi-VN">cgrocket_site_vi-VN.zip</file>
+        <file type="language" client="administrator" id="vi-VN">cgrocket_admin_vi-VN.zip</file>
+</files>
+	 <updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://cgrocket.com/updates/language/translationlist.xml</server>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://leweb2.com/updates/language/translationlist.xml</server>
+	</updateservers>
+</extension>

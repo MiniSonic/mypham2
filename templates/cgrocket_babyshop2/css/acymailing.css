@@ -1,0 +1,63 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 cgrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com -  http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+/* Acymailing ---*/
+table.acymailing_form { margin: 0; width: 100%; }
+
+.acymailing_module_form td {
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: left;
+}
+
+table.acymailing_form input.inputbox {
+	width: 89%;
+	background: #002e5a;
+	border-color: #002e5a;
+	color: #999;
+}
+
+table.acymailing_form input.inputbox:hover {
+	border-color: #ccc;
+}
+
+table.acymailing_form input.inputbox:focus,
+textarea:focus {
+	border-color: #002e5a;
+}
+
+table.acymailing_form input.button,
+div.acymailing_form p.acysubbuttons input.button {
+	background:	#417cab;
+	border: solid 1px #417cab;
+	color: #fff;
+}
+
+table.acymailing_form input.button:hover, table.acymailing_form input.button:active,
+div.acymailing_form p.acysubbuttons input.button:hover, div.acymailing_form p.acysubbuttons input.button:active {
+	background:#333333;
+	border-color: #333333;
+	color: #fff;
+}
+
+div.acymailing_form{ margin-top: 10px !important; }
+
+div.acymailing_form p.onefield input.inputbox {
+	width: 100%;
+	background: #1f1f1f;
+	border-color: #2f2f2f;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+div.acymailing_form p.onefield input.inputbox:hover { border-color: #002e5a; }
+div.acymailing_form p.onefield input.inputbox:focus,
+div.acymailing_form p.onefield input.inputbox:active { border-color: #002e5a; }
+div.acymailing_form p.acysubbuttons { text-align: left; }

@@ -1,0 +1,83 @@
+/*------------------------------------------------------------------------
+# CGrocket Virtuemart Product Show Module
+# ------------------------------------------------------------------------
+# Author    CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 CGrocket.com. All Rights Reserved.
+# @license - GNU/GPL V2 for PHP files. CSS / JS are Copyrighted Commercial
+# Websites: http://www.cgrocket.com
+-------------------------------------------------------------------------*/
+h4.rocket-title {font-size:100%;font-weight:bold}
+a.rocket-readmore span,span.rocket-hits,a.rocket-comments {margin:0 5px 0 0;font-size:0.9em}
+a.rocket-readmore span {background:url(../images/more.png) no-repeat 0 0;padding:0 0 0 13px}
+span.rocket-hits {color:#666666;background:url(../images/hits.png) no-repeat 0 0;padding:0 0 0 14px}
+a.rocket-comments {background:url(../images/comments.png) no-repeat 0 0;padding:0 0 0 18px}
+
+/*Article tools*/
+div.rocket-tools{color:#999;font-size:0.9em}
+div.rocket-tools span {margin:0 5px 0 0}
+div.rocket-author,
+div.rocket-created,
+div.rocket-category {display:inline}
+
+/*Rating*/
+div.rocket-rating{height:16px;white-space:nowrap;margin:5px 0 0}
+div.rocket-rating-bar,div.rocket-rating-bar div{height:16px;background-image:url(../images/transparent_star.png);background-repeat:repeat-x}
+div.rocket-rating-bar{width:80px;overflow:hidden;background-position:0 0}
+div.rocket-rating-bar div{background-position:0 -16px;display:block}
+
+/*Newly added*/
+div.nsrocket .flt-left {float:left}
+div.nsrocket .col-1 {width:100%}
+div.nsrocket .col-2 {width:50%}
+div.nsrocket .col-3 {width:33.333%}
+div.nsrocket .col-4 {width:25%}
+div.nsrocket .col-5 {width:20%}
+div.nsrocket .col-6 {width:16.666%}
+div.nsrocket .col-7 {width:14.256%}
+div.nsrocket .col-8 {width:12.5%}
+div.nsrocket .col-9 {width:11.111%}
+div.nsrocket .col-10 {width:10%}
+
+/*Animation Area*/
+div.rocket-art-pages, div.rocket-links-pages {overflow:hidden;position:relative}
+div.rocket-page {overflow:hidden;}
+
+div .rocket-art-controllers, div .rocket-links-controllers {float:right}
+div .rocket-art-pagination, div .rocket-links-pagination{float:left;margin:0 10px}
+			
+	div .rocket-art-prev, div .rocket-links-prev,
+	div .rocket-art-play, div .rocket-links-play,
+	div .rocket-art-pause, div .rocket-links-pause,
+	div .rocket-art-next, div .rocket-links-next,
+	div .rocket-art-pagination span, div .rocket-links-pagination span{
+		background-image:url(../images/nav-buttons.png);
+		background-repeat:no-repeat;
+		width:8px;
+		height:9px;
+		float:left;cursor:pointer;
+		text-indent:-999em;
+		margin:0 2px;
+	}
+	
+	div .rocket-art-prev, 
+	div .rocket-links-prev {background-position:0 0}
+	div .rocket-art-prev:hover, 
+	div .rocket-links-prev:hover {background-position:0 -9px}
+	div .rocket-art-next, 
+	div .rocket-links-next {background-position:-8px 0}
+	div .rocket-art-next:hover, 
+	div .rocket-links-next:hover {background-position:-8px -9px}
+	div .rocket-art-play, 
+	div .rocket-links-play {background-position:-24px 0}
+	div .rocket-art-play:hover, 
+	div .rocket-links-play:hover {background-position:-24px -9px}
+	div .rocket-art-pause, 
+	div .rocket-links-pause {background-position:-32px 0}
+	div .rocket-art-pause:hover, 
+	div .rocket-links-pause:hover {background-position:-32px -9px}
+	div .rocket-art-pagination span, 
+	div .rocket-links-pagination span{background-position:-16px 0}
+	div .rocket-art-pagination span:hover, 
+	div .rocket-links-pagination span:hover, 
+	div .rocket-art-pagination span.active, 
+	div .rocket-links-pagination span.active{background-position:-16px -10px}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - CGrocket Framework</name>
+	<author>CGrocket.com</author>
+	<creationDate>May 2012</creationDate>
+	<copyright>Copyright (C) 2011 - 2012 Cgrocket. All rights reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>admin@cgrocket.com</authorEmail>
+	<authorUrl>www.cgrocket.com</authorUrl>
+	<version>1.0.0</version>
+	<description>CGrocket Framework - Cgrocket Template Framework for Joomla 2.5</description>
+	<files>
+		<filename plugin="cgrocket">cgrocket.php</filename>
+		<filename plugin="cgrocket">index.html</filename>
+		<folder plugin="cgrocket">core</folder>
+		<folder plugin="cgrocket">css</folder>
+		<folder plugin="cgrocket">js</folder>
+		<folder plugin="cgrocket">elements</folder>
+		<folder plugin="cgrocket">features</folder>
+		<folder plugin="cgrocket">layout</folder>
+	</files>
+	<fieldset addfieldpath="/plugins/system/cgrocket/elements"></fieldset>
+</extension>

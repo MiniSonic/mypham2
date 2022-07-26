@@ -1,0 +1,154 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2011 CGrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+/*Tabs*/
+div.cgtabs .tabs_buttons{
+background:#fff;
+margin:0 -1px;
+border-bottom:1px solid #e7e7e7
+}
+ul.tabs_container li.tab,ul.tabs_container li.tab span{
+float:left;
+font-size:14px;
+font-weight:500;
+cursor:pointer;
+margin:0;
+padding:0;
+border:0
+}
+ul.tabs_container li.tab{background:#eaeaea;color:#333!important}
+ul.tabs_container li.tab.tab_over{background:#dadada!important;color:#333!important;}
+ul.tabs_container li.tab.active {background:#fff!important;color:#333!important;}
+.cgtabs {border:1px solid #e7e7e7;border-top:0}
+
+/*Top Panel*/
+#toppanel-handler,.handler-left,.handler-right,.handler-mid{height:24px!important}
+#toppanel-handler{width:140px!important;bottom:-24px!important}
+.handler-right{padding:0 32px!important}
+.handler-mid {line-height:18px!important}
+
+/* 	TheNews Show */
+.rocket-blog .rocket-row {
+border-top:1px dotted #EAEAEA;
+margin-top:10px
+}
+.rocket-blog .rocket-row:hover {
+border-top:1px dotted #fff
+}
+.rocket-blog .rocket-row.rocket-first {
+border-top:0;
+margin-top:0
+}
+h4.rocket-title a {
+color:#666;
+font-weight: 400;
+font-size: 14px;
+text-align:center;
+}
+
+.rocket-blog .rocket-links a.rocket-comments {
+color:#666;
+}
+
+/*Virtuemart layout*/
+.nsrocket.rocket-vm .rocket-inner {
+border:1px dotted #8ddef2; 
+background:#fff;
+padding:10px;
+}
+.nsrocket.rocket-vm .rocket-inner:hover {
+background:#dff6fb;
+color:#fff;
+}
+.nsrocket.rocket-vm .rocket-inner:hover {
+background:#fff;
+color:#e83f7b;
+}
+.rocket-vm-bar {
+padding-top:5px;
+}
+.nsrocket.rocket-vm p.rocket-vm-price {
+color:#c76200!important;
+float:center;
+text-align:center;
+font-size:17px;
+font-weight:400;
+margin:0px 0 5px 0
+}
+.nsrocket.rocket-vm:hover p.rocket-vm-price:hover {
+color:#f44747!important;}
+.nsrocket.rocket-vm .rocket-addtocart {
+background:#fb3488;
+background-image: url("../images/add-to-cart.png" );
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0px;
+width: 170px;
+text-align:center;
+float:center;
+}
+
+/*vmcategoriespro*/
+.lofmenu_virtuemart {
+width:100%;}
+.lofmenu_virtuemart ul.lofmenu {
+margin:0;
+padding:0;		
+position: relative;
+list-style-type:none;
+z-index: 666;}
+		
+.lofmenu_virtuemart ul.lofmenu li{
+width:100%;
+display:block;
+margin: 0;
+padding: 0;
+position:relative;}
+
+.lofmenu_virtuemart .lofmenu .lofitem1,
+.lofmenu_virtuemart .lofmenu .lofitem2 {}
+
+.lofmenu_virtuemart .lofmenu a {
+background-color: #fff;
+display:block;
+color:#666;
+position:relative;
+padding:6px 0;
+text-decoration:none;
+border-bottom:1px dotted #eaf8fb;
+-webkit-transition:background-color .3s ease-out, color .3s ease-out;
+-moz-transition:background-color .3s ease-out, color .3s ease-out;
+-o-transition:background-color .3s ease-out, color .3s ease-out;
+transition:background-color .3s ease-out, color .3s ease-out;}
+
+.lofmenu_virtuemart .lofmenu .lofactive > a{
+background-color: #eaf8fb;
+color: #222 }
+
+.lofmenu_virtuemart .lofmenu .ice-current > a{
+background-color:#f6f5f5;
+color: #222 }
+
+.lofmenu_virtuemart .lofmenu > .ice-current > a:before {
+content:"";
+background:url(images/cgrocket2.png) no-repeat center right;
+position:absolute;
+height:20px;
+width:14px;
+right:-24px}
+
+.lofmenu_virtuemart .lofmenu .lofitem1 img{
+margin:0 9px 0 5px;
+float:left;}
+
+.lofmenu_virtuemart .lofmenu .lofitem1 a span.counter {
+color:#666;
+padding-left:3px
+}

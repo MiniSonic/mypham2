@@ -1,0 +1,17 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 Cgrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+.cg-toppanel-wrap{position:relative;display:none;z-index:99999}
+#cg-toppanel{margin:0}
+#toppanel_container{width:100%;position:absolute;top:0;left:0;z-index:999}
+#toppanel-handler,.handler-left,.handler-right,.handler-mid{height:19px}
+#toppanel-handler{width:120px;display:block;cursor:pointer;position:absolute;left:50%;margin-left:-70px;bottom:-19px;text-align:center;color:#fff;font-size:10px;font-weight:700}
+.handler-left{background:url(images/toppanel-l.png) no-repeat 0 0}
+.handler-right{background:url(images/toppanel-r.png) no-repeat 100% 0;padding:0 20px}
+.handler-mid{background:url(images/toppanel-m.png) repeat-x 0 0}
+#cg-top{color:#666;background:#f5f5f5;min-height:320px;}

@@ -1,0 +1,265 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 cgrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com -  http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+/*Jcomment Bottom*/
+.comments-link, .readmore-link{
+color: #222;
+background-color: #none;
+background-image: url(../../images/jcomments/jc_blog.gif);
+background-repeat: no-repeat;
+border:1px solid #d9494b;
+padding:7px 10px 7px 10px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;}
+
+.comments-link:hover, .readmore-link:hover{
+color: #fff;
+background-color: #d9494b;
+background-image: url(../../images/jcomments/jc_blog.gif);
+background-repeat: no-repeat;
+border:1px solid #d9494b;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;}
+
+/* Comment form */
+div.comments-policy {
+color: #777; 
+text-align: left;
+text-decoration: none;
+text-transform: none;
+text-indent: 0; 
+background-color: inherit; 
+border: 1px dotted #ccc; 
+padding: 5px; 
+margin: 5px 0 5px 20px; 
+margin-left: 20px !important;
+}
+div.comments-policy ol, div.comments-policy ul {
+margin: 0;
+padding: 5px 0 0 20px;
+line-height: 5px
+}
+div.comments-policy ol li, div.comments-policy ul li {
+font: normal 1em Tahoma, Tahoma, Sans-Serif; 
+margin: 0;
+padding: 0;
+border: none;
+line-height: 5px
+}
+#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {
+text-align: left;
+text-decoration: none;
+text-transform: none;
+text-indent: 0}
+#comments-form p, #comments-report-form p, #comments-form span, #comments-form .counter {
+color: #777;font: normal 1em Tahoma, Tahoma, Sans-Serif}
+#comments-form p, #comments-form #comments-form-buttons, #comments-form #comments-form-error, #comments-form #comments-form-captcha-holder {
+font: normal 1em Tahoma, Tahoma, Sans-Serif;
+margin-left: 20px !important;
+margin-top: 10px;
+margin-bottom: 8px;
+overflow: hidden;
+padding: 0
+}
+#comments-inline-edit {
+border: 1px solid #ccc;
+margin: 5px 0 0 0;
+background: #fff
+}
+#comments-inline-edit #comments-form p, #comments-inline-edit #comments-form #comments-form-buttons,
+#comments-inline-edit #comments-form-error {
+font: normal 1em Tahoma, Tahoma, Sans-Serif;
+margin-left: 5px !important;
+margin-left: 5px;
+margin-top: 5px;
+margin-bottom: 2px;
+padding: 0}
+#comments-form img.smile {
+margin: 0 3px 3px 0;
+padding: 0;
+border: none;
+cursor: pointer}
+#comments-form img.captcha {
+padding: 0;
+margin: 0 0 3px 0;
+border: 1px solid #ccc}
+#comments-form span.captcha {
+padding: 0 0 0 12px; 
+color: #777; background: url(../images/jcomments/jc_refreshg.gif) no-repeat 0 2px;
+cursor: pointer; 
+display: inline-block}
+#comments-form label, #comments-report-form label {
+color: #777; 
+background-color: inherit; 
+line-height: 1.5em; 
+padding: 0;
+margin: 0;
+vertical-align: middle}
+#comments-form input, #comments-report-form input, #comments-form textarea {
+color: #444;
+background-color: #f5f4f4;
+padding: 0 !important;
+margin: 0;
+border: 1px solid #f5f4f4
+}
+#comments-form input {
+width: 170px;
+margin-bottom: 2px;
+height: 1.5em
+}
+#comments-form input.selected, #comments-form textarea.selected {
+color: #777;
+background-color: #ebeaea !important;
+border: 1px solid #ebeaea
+}
+#comments-form input.error, #comments-form textarea.error {
+border: 1px solid #f00;
+text-decoration:none;
+text-transform:none;
+background-color: #ffffe0
+}
+#comments-form input.checkbox {
+width: 16px; 
+line-height: 1.5em; 
+padding: 0; margin: 0; 
+vertical-align: middle; 
+border: none
+}
+#comments-form input.captcha {
+width: 116px; 
+margin: 3px 0 5px 0
+}
+#comments-form textarea {
+max-width: 400px !important;
+width: 350px;
+margin:0;resize: none;
+}
+#comments-form-message {
+padding: 5px 5px 5px 25px;
+margin-right: 5px;
+display: block
+}
+.comments-form-message-error {
+background: #FFD86F url(../images/jcomments/jc_error.gif) no-repeat 4px 50%}
+.comments-form-message-info {
+background: #DFEEFF url(../images/jcomments/jc_info.gif) no-repeat 4px 50%}
+#comments-form .counterpanel {
+height:13px;
+display:block;
+overflow:hidden;
+color: #ccc;
+padding: 0;
+margin:0;
+border:1px solid #ddd;
+border-top-width:0;
+max-width: 400px !important;
+width: 350px;
+background-color: #eee
+}
+#comments-form .grippie {
+height:13px;
+display:block;
+overflow:hidden;
+color: #ccc;
+padding: 0;
+margin:0;
+border:1px solid #ebeaea;
+border-top-width:0;
+max-width: 400px !important;
+width: 350px;
+cursor:s-resize;
+background: #ebeaea url(../images/jcomments/jc_resize.gif) no-repeat right 2px}
+#comments-form .grippie .counter {
+font-size: 10px;
+padding: 0; 
+margin: 0
+}
+#comments-form .grippie span {
+display:block;
+float:left
+}
+#comments-form .grippie span span {
+display:inline;
+float:none
+}
+#comments-form .btn, #comments-report-form .btn {
+float: left; 
+background: url(../images/jcomments/jc_btnl.gif) no-repeat; 
+margin-right: 5px
+}
+#comments-form .btn div, #comments-report-form .btn div {
+margin:0 -1px 0 0; 
+float: left;
+background: #cfcfcf;
+padding: 0 15px;
+font-size: 12px;
+font-weight: bold
+}
+#comments-form .btn a, #comments-report-form .btn a {
+text-decoration: none; 
+height: 22px;
+line-height: 22px;
+font-size: 12px;
+font-weight: bold;
+color: #777;
+padding: 0 5px;
+border: none
+}
+#comments-form .btn a:hover, #comments-form .btn a:focus, #comments-report-form .btn a:hover, #comments-report-form .btn a:focus {
+text-decoration: none; 
+color: #b50000;
+background-color: transparent
+}
+#comments-form-smilespanel {
+display: none;
+cursor: pointer;
+padding: 2px;
+max-width: 200px;
+background-color: #fff;
+border: 1px solid #ccc;
+overflow: auto;
+left: 0;
+top: 0;
+position:absolute;
+z-index: 999999 !important;}
+#comments-footer, #comments-footer a {
+color: #ebeaea !important; 
+background-color: inherit; 
+font: normal 9px Tahoma, Tahoma, Sans-Serif !important
+}
+#comments-footer {
+display: block;
+height: 14px;
+border-top: 0px solid #ccc;
+padding-top: 0px;
+margin-top: 4px;
+text-align: right
+}
+#comments-footer a {
+text-decoration: none !important;
+text-transform: none;
+padding: 0;
+margin: 0;
+border: none !important;
+float: right; 
+background: none !important
+}
+#jc h4 {
+color: #555;
+background-color: inherit;
+font-weight: bold;
+font-size: 16px;
+text-align: left;
+border-bottom: 1px solid #ececec;
+padding: 0 0 2px 0;
+margin-bottom: 10px
+}

@@ -1,0 +1,249 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2011 CGrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+
+body.bg{background:#fff url(../../images/bg/baby-main-bg8.gif) repeat-y center;}
+a{color:#a885b3}
+a:hover,a:active,a:focus{color:#000}
+
+/* logo */
+a#logo{background:url(../../images/styles/style8/logo.png) no-repeat 0 50%}
+
+/*Module type XHTML*/
+.mod-wrapper,.mod-wrapper-flat {
+background:#a885b3position:relative
+}
+.mod-wrapper {background:#FFF}
+.mod-wrapper {
+border:1px dotted #b79cc0;
+padding:10px
+}
+.module_none .mod-wrapper {
+border:0;
+background:none;
+padding:0
+}
+.module_none  .mod-wrapper .mod-inner {border:0}
+
+.mod-wrapper h3.header,.module_dark h3.header{
+background: #9f79ac;
+color: #fff;
+font-size:16px;
+font-weight:400;
+line-height:normal;
+border-bottom:1px dotted #b79cc0;
+margin:0 0 10px;
+padding: 5px 0px;
+}
+
+.module_none .mod-wrapper h3 {
+margin:0 0 10px;
+padding: 5px 0px;
+}
+
+.module_text .mod-wrapper h3.header {
+font-size:9px;
+text-align:center
+}
+
+.mod-wrapper ul{
+list-style:none;
+margin:0;
+padding:0
+}
+.mod-wrapper li{
+background-image:url(../../images/styles/style8/here.png);
+background-position:0 11px;
+background-repeat:no-repeat;
+border-bottom:1px dotted #b79cc0;
+display:block;
+padding:3px 10px 3px 16px;
+font-size:12px;
+font-weight:400;
+}
+.mod-wrapper li li{
+margin-left:10px;
+border-bottom:0!important
+}
+.mod-wrapper li a{text-decoration:none}
+.mod-wrapper li:hover > a, .mod-wrapper li.active > a{
+text-decoration:none
+}
+
+/* Search */
+#search div.mod-search,#search div.finder{background:transparent url(../../images/styles/style8/search.png) no-repeat 0 0}
+
+/*To Top*/
+a#topofpage {background-image: url(../../images/gototop.png)}
+#cg-mid {background:#a885b3;
+color:#fff;
+border-top:0px solid #b79cc0
+}
+#cg-bottom {background:#a885b3;
+color:#fff;
+border-top:2px solid #b79cc0;
+}
+#cg-footer {
+background:#9f79ac;
+font-size:14px;
+color:#fff;
+border-top:1px solid #b79cc0;
+}
+#cg-footer a:link, #cg-footer a:visited {
+color:#fff;
+font-size:14px;
+}
+#cg-bottom a:link, #cg-bottom a:visited {
+border-right: 1px solid #b79cc0;
+color:#a885b3;
+font-size:14px;
+}
+
+/*Top Panel*/
+#cg-toppanel{border:1px solid #a885b3!important;border-top:0!important}
+#cg-top {color:#fff!important;background:#a885b3!important}
+.handler-left{background:url(../../images/toppanel-l.png) no-repeat 0 0!important}
+.handler-right{background:url(../../images/toppanel-r.png) no-repeat 100% 0!important}
+.handler-mid{background:url(../../images/toppanel-m.png) repeat-x 0 0!important}
+
+/*Module Dark*/
+.module_dark .mod-wrapper{background:#a885b3;color:#fff;border:0!important}
+.module_dark h3.header{
+background:#a885b3;
+color:#fff;
+border-bottom:0px dashed #9f79ac!important;
+border-top:0px dashed #9f79ac;
+padding: 5px 0px;
+}
+.module_dark li{border-bottom:1px dashed #a885b3!important}
+.module_dark a{color:#fff}
+
+/*Module Cart*/
+.module_cart .mod-wrapper {background:#a885b3;
+background-image: url("../../images/cart.png" );
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 10px 5px;
+float: left;
+width: 200px;
+color:#ccc;
+border:0!important;
+text-align:center;
+}
+.module_cart h3.header{
+background:none;
+color:#fff;
+padding: 5px 0px;
+border-top:0px dashed #ccc;
+text-align:center;
+}
+.module_cart li{border-bottom:1px dashed #a885b3!important}
+.module_cart a{color:#fff}
+
+#cg-bottom .module li a, #cg-bottom .module_menu li a,#cg-mid .module li a, #cg-mid .module_menu li a, #cg-top .module li a, #cg-top .mudule_menu li a{color:#eee1f2}
+.module_dark img.border, .module_dark img.cg-news-image{border:1px solid #a885b3}
+.module_dark div .cg-news-item-row {border-bottom: 1px dashed #a885b3 !important}
+
+/*Joomla*/
+#form-login-username input,#form-login-password input{background-color:#fff;color:#fff;border:1px dotted #ccc}
+#form-login-username input:hover,#form-login-password input:hover{background-color:#fff;color:#666;border:1px dotted #a885b3}
+.adminform button,#adminForm button,.button,a.readon,a.readmore,input[type=submit],input[type=button]{background:#a885b3}
+.adminform button:hover,#adminForm button:hover,.button:hover,a.readon:hover,a.readmore:hover,input[type=submit]:hover,input[type=button]:hover{background:#a885b3}
+
+/* Acymailing ---*/
+table.acymailing_form input.inputbox {
+	width: 93%;
+	background: #fff;
+	color: #666;
+	border:1px dotted #ccc
+}
+
+table.acymailing_form input.inputbox:hover {
+	border-color: #a885b3;
+}
+
+table.acymailing_form input.inputbox:focus,
+textarea:focus {
+	border-color: #a885b3;
+}
+table.acymailing_form input.button,
+div.acymailing_form p.acysubbuttons input.button {
+	background:	#a885b3;
+	border: solid 1px #a885b3;
+	color: #fff;
+}
+
+/*topmenu*/
+#topmenu{
+background:#fef5f8;
+float:right;
+margin-top:0px;
+box-shadow: 0 5px 4px -3px #ccc;
+}
+#topmenu ul{list-style-type:none;padding:0;margin:0 0 5px 0}
+#topmenu li{background:#fef5f8;padding:0;display:inline}
+#topmenu a{
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+display:inline;
+margin:0;
+padding:0 10px;
+border-right: 1px solid #fff;
+color: #000;
+}
+
+/*Virtuemart layout*/
+.nsrocket.rocket-vm .rocket-inner {
+border:1px dotted #b79cc0; 
+background:#fff;
+padding:10px;
+}
+.nsrocket.rocket-vm .rocket-inner:hover {
+background:#dff6fb;
+color:#fff;
+}
+.nsrocket.rocket-vm .rocket-inner:hover {
+background:#fff;
+color:#e83f7b;
+}
+.rocket-vm-bar {
+padding-top:5px;
+}
+.nsrocket.rocket-vm p.rocket-vm-price {
+color:#c76200!important;
+float:center;
+text-align:center;
+font-size:17px;
+font-weight:400;
+margin:0px 0 5px 0
+}
+.nsrocket.rocket-vm:hover p.rocket-vm-price:hover {
+color:#f44747!important;}
+.nsrocket.rocket-vm .rocket-addtocart {
+background:#fb3488;
+background-image: url("../../images/add-to-cart.png" );
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0px;
+width: 170px;
+text-align:center;
+float:center;
+}
+
+span.title{
+background-color: #a885b3;
+padding:7px;
+color:#fff;
+font-weight:400;
+display:block;
+border:dotted #a885b3 0px;
+font-size:16px;
+margin:0 0 6px;
+}

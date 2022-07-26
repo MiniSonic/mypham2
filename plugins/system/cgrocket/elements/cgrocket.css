@@ -1,0 +1,290 @@
+/*---------------------------------------------------------------
+# Package - Joomla Template based on CGrocket Framework   
+# ---------------------------------------------------------------
+# Author - CGrocket http://www.cgrocket.com
+# Copyright (C) 2011 - 2012 Cgrocket.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# Websites: http://www.cgrocket.com - http://www.leweb2.com
+-----------------------------------------------------------------*/
+input[type=radio] {border:0!important}
+html{font-family: 'Tahoma','Helvetica',Tahoma,serif;
+background:#fff;
+color:#666;
+font-weight:700;
+font-size:14px;
+border-bottom:1px solid #ccc;
+min-height:100%
+}
+.cgrocket-desc h1 {
+font-family: 'Tahoma','Helvetica',Tahoma,serif;
+font-size:250%;
+color: #e14e16;
+font-weight:700;
+font-size:14px;
+margin:0 0 5px 0;
+border-bottom: 1px dotted #e14e16;
+padding:5px;
+}
+.cgrocket-desc h2 {
+font-family: 'Tahoma','Helvetica',Tahoma,serif;
+font-size:250%;
+color: #e14e16;
+font-weight:700;
+font-size:14px;
+margin:0 0 5px 0;
+border-bottom: 1px dotted #e14e16;
+padding:5px;
+}
+.cgrocket-desc h3 {
+font-family: 'Tahoma','Helvetica',Tahoma,serif;
+font-size:250%;
+color: #e14e16;
+font-weight:700;
+font-size:14px;
+margin:0 0 5px 0;
+border-bottom: 1px dotted #e14e16;
+padding:5px;
+}
+
+.tabs-item fieldset,.cgrocket-details fieldset{
+background:#fff;
+border: 1px dotted #e14e16;
+padding:5px;
+margin-bottom:0!important;
+text-align:left
+}
+.adminformlist li >label{
+display:block;
+font-size:1.091em!important;
+margin-right:20px!important;
+padding-right:15px!important;
+text-align:right!important;
+width:130px!important
+}
+.cgrocket-details ul.adminformlist li{
+float:left;
+margin-right:10px
+}
+.cgrocket-details ul.adminformlist li >label{
+display:block;
+font-size:1.091em!important;
+margin-right:10px!important;
+min-width:30px!important;
+padding-right:10px!important;
+text-align:right!important;
+width:auto!important
+}
+.cgrocket-details input#jform_title,.cgrocket-details input#jform_template,.cgrocket-details input.readonly{
+font-size:13px!important;
+color:#777!important;
+line-height:16px;
+border:1px solid #d3d3d3!important
+}
+input.readonly {display:none!important;}
+input#jform_template.readonly {
+margin-top:4px!important;
+display:block!important;
+padding:1px 0!important
+}
+.cgrocket-details input#jform_title{width:250px}
+.cgrocket-details input#jform_template{width:150px}
+.cgrocket-details input.readonly{width:50px}
+input.required{
+background-color:transparent!important
+}
+fieldset.adminform > label{display:none}
+.cgrocket-details{margin-bottom:10px}
+.cgrocket-details input.readonly,.cgrocket-details span.readonly,.cgrocket-details #jform_id{
+background:transparent;
+color:#666;
+font-size:18px;
+font-weight:400;
+margin:0;
+padding:0
+}
+
+#cg_spinner{
+background:url(images/loader.gif) no-repeat 0 0;
+display:block;
+height:16px;
+margin:10px auto;
+width:16px
+}
+.cg_update{
+border-bottom:1px dotted #d1d1d1;
+clear:both;
+line-height:25px
+}
+#cg_update_div p{
+color:#666;
+font-size:11px;
+text-align:left;
+margin-top:.7em
+}
+
+.line_separator.hasText{
+color:#e14e16;
+cursor:pointer;
+font-size:10px;
+line-height:1px;
+padding-left:100px
+}
+.line_separator{
+background:#f1f1f1;
+clear:both;
+display:block;
+height:5px;
+margin:5px 0
+}
+.line_separator.hasText span{
+background:#FFF;
+padding:4px;
+}
+.text-limit{text-align:right}
+
+.cgrocket-title-area{
+background:#e14e16 url(images/cgrocket_logo.png) no-repeat 100% 0;
+height:42px;
+padding-top:6px;
+padding-left:16px;
+}
+ul.cgrocket-tabs{
+list-style:none;
+margin:0;
+padding:0
+}
+ul.cgrocket-tabs li.tabs-title{
+color:#666;
+float:left;
+font-family:"Tahoma",Arial,sans-serif;
+font-size:12px;
+font-weight:700!important;
+margin:0;
+padding:0 5px 0 0;
+text-align:center;
+min-height:10px;
+}
+ul.cgrocket-tabs li.tabs-title span.tab-l{
+background:#fff;
+border:1px dotted #fff;
+display:block;
+box-shadow: 0 5px 4px -3px #999;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+}
+ul.cgrocket-tabs li.tabs-title span.tab-r{
+background:#fff;
+color:#666;
+display:block!important;
+line-height:32px;
+margin-left:5px;
+padding:0 10px 0 4px
+}
+ul.cgrocket-tabs li.tabs-title.open span.tab-l{
+background:url(images/tab-active-l.png) no-repeat 0 0
+}
+ul.cgrocket-tabs li.tabs-title.open span.tab-r{
+background:url(images/tab-active-r.png) no-repeat 100% 0;
+color:#fff
+}
+ul.cgrocket-tabs li#cg-basic span.tab-text{
+background:url(images/icons/basic.png) no-repeat 0 50%;
+padding-left:18px
+}
+ul.cgrocket-tabs li#cg-menu span.tab-text{
+background:url(images/icons/menu.png) no-repeat 0 50%;
+padding-left:18px
+}
+ul.cgrocket-tabs li#cg-fonts span.tab-text{
+background:url(images/icons/font.png) no-repeat 0 50%;
+padding-left:18px
+}
+ul.cgrocket-tabs li#cg-template-specific span.tab-text{
+background:url(images/icons/template-specific.png) no-repeat 0 50%;
+padding-left:18px
+}
+ul.cgrocket-tabs li#cg-menu-assign span.tab-text{
+background:url(images/icons/menu-assigned.png) no-repeat 0 50%;
+padding-left:18px
+}
+ul.cgrocket-tabs li#cg-advanced span.tab-text{
+background:url(images/icons/advanced.png) no-repeat 0 50%;
+padding-left:18px
+}
+ul.cgrocket-tabs li#cg-help-update span.tab-text{
+background:url(images/icons/help.png) no-repeat 0 50%;
+padding-left:18px
+}
+div.cgrocket-panel{
+border:1px dotted #e5e5e5;
+clear:both;
+padding:10px
+}
+
+.cgrocket-params-area{
+background:#fff;
+border:1px dotted #e14e16;
+float:left;
+min-height:400px;
+width:58%;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px
+}
+.cgrocket-desc{
+background:#fff;
+float:right;
+overflow:hidden;
+padding:20px 10px;
+width:38%;
+box-shadow: 3px 5px 4px 1px #999;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px
+}
+.tabs-item{padding:10px}
+
+div#menu-assignment ul.menu-links{
+float:left;
+list-style:none outside none;
+margin:0;
+padding:0;
+width:49%
+}
+
+fieldset.adminform legend{
+display:none!important
+}
+.clearfix:after{
+clear:both;
+content:' ';
+display:block;
+font-size:0;
+height:0;
+line-height:0;
+visibility:hidden;
+width:0
+}
+
+.submenu-box, div.m {
+background:#fff;
+border: 1px dotted #e14e16;
+padding-top: 0px;
+padding-right: 8px;
+padding-bottom: 0px;
+padding-left: 8px;
+background-color: #f4f4f4;
+box-shadow: 0 5px 4px -3px #999;
+}
+
+div#element-box div.m {
+border: 0px dotted #e14e16;
+background:#fff;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+* html .clearfix,:first-child+html .clearfix{zoom:1}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+<name>VM Categories Pro</name>
+    <creationDate>August 2012</creationDate>
+    <author>CGrocket</author>
+    <authorEmail>support@cgrocket.com</authorEmail>
+    <authorUrl>http://www.cgrocket.com</authorUrl>
+    <copyright>(C) 2011 - 2012 cgrocket. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+    <version>1.0.0</version>
+    <description><![CDATA[
+		<div class="cg_description">
+			<h3>CGrocket VM Categories Module</h3>	
+			<a href="http://www.cgrocket.com" target="_blank"><img src="http://www.cgrocket.com/images/rocket_mini.jpg"></a>
+			<p>Thank you for using our extension. If you find any issues or any ideas to improve the extension, please send us an email or post to the forum. We appreciate your help. Also we will release two templetes per month, you will easy to find a nice template for your joomla site. Please check our products here: <a href='http://www.cgrocket.com/'>Join our Clubs Now</a> to download all templates or extensions.</p>
+			<h3>Upgrade versions</h3>
+			<p>Your current versions is 1.0. <a target="_blank" href="http://www.cgrocket.com">Find our latest versions now</a>
+			</p>
+			<h3>About CGrocket.com & copyright</h3>	
+			<p>CGROCKET.COM is Professional Joomla template provider. We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization
+			</p>
+			Copyright 2011 - 2012 <a target="_blank" href="http://www.cgrocket.com">http://www.cgrocket.com</a>	
+		</div>
+	]]>	
+	</description>
+	<files>
+		<filename module="mod_vmcategoriespro">mod_vmcategoriespro.php</filename>
+        <folder module="mod_vmcategoriespro">libs</folder>
+        <folder module="mod_vmcategoriespro">assets</folder>
+		<filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>mod_vmcategoriespro.xml</filename>
+        <filename>index.html</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">languages/en-GB.mod_vmcategoriespro.ini</language>
+    </languages>     
+    <config>
+        <fields name="params">
+            <fieldset name="basic">  
+                <field name="show_image" type="radio" default="1" label="SHOW_IMAGE" description="SHOW_IMAGE_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+				<field name="image_width" type="text" default="20" label="IMAGE_MAIN_WIDTH" description="IMAGE_MAIN_WIDTH_DESC" size="5" />
+				<field name="image_heigth" type="text" default="20" label="IMAGE_MAIN_HEIGHT" description="IMAGE_MAIN_HEIGHT_DESC" size="5" />
+				
+				<field name="" type="spacer" default="" label="" description="" />
+				<field name="" type="spacer" default="" label="" description="" />
+					
+					
+                <field name="sort" type="list" default="id" label="SORT" description="SORT_DESC">
+                    <option value="id">ID</option>
+                    <option value="name">NAME</option>
+                    <option value="order">ORDERING</option>                        
+                </field>                
+                <field name="ordering" type="radio" default="asc" label="ORDERING" description="ORDERING_DESC">
+                    <option value="asc">ASCENDING</option>
+                    <option value="desc">DESCENDING</option>
+                </field>               
+				
+                <field name="showcounter" type="radio" default="1" label="COUNTER" description="COUNTER_DESC">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+				
+				<field name="" type="spacer" default="" label="" description="" />
+				<field name="" type="spacer" default="" label="" description="" />
+				
+                <field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config>     
+</extension>
